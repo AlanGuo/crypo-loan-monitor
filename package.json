@@ -1,0 +1,8 @@
+{
+  "name": "crypto-loan-monitor",
+  "version": "0.0.1-alpha",
+  "scripts": {
+    "start": "cargo run",
+    "pm2": "pm2 startOrRestart ecosystem.json"
+  }
+}

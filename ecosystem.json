@@ -1,0 +1,17 @@
+{
+  "apps" : [
+    {
+      "name"      : "crypto-loan-monitor",
+      "script"    : "target/release/crypto-loan-monitor",
+      "args"      : "",   
+      "instances" : 1,
+      "exec_mode" : "fork",
+      "watch"     : true,
+      "error_file": "logs/crypto-loan-monitor.stderr.log",
+      "out_file"  : "logs/crypto-loan-monitor.log",
+      "mergeLogs" : false,
+      "env": {
+      }
+    }
+  ]
+}
