@@ -1,3 +1,3 @@
 # Crypto loan monitor
 
-Monit the price of your loaned crypto and your collateral so that you can run some repayment actions automatically
+Monitor crypto loan orders and prevent to be liquidated, support both Binance crypto loan and defi protocols
